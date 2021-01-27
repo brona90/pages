@@ -17,13 +17,12 @@ title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is a description from the config file
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "pages" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: brona90
 github_username:  brona90
 
 # Build settings
-markdown: kramdown
 theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
